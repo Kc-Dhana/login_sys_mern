@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function App() {
   return (
-    <div>React Login App</div>
+    <div><h1 className="text-3xl font-bold underline">
+    Hello world!
+  </h1></div>
   )
 }
