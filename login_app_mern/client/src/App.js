@@ -8,17 +8,15 @@ const router = createBrowserRouter([
         element : <div>Root Route</div>
     },
     {
-        path:'/',
-        element : <div>Root Route</div>
+        path:'/register',
+        element : <div>Register Route</div>
     },
 ])
 
 export default function App() {
   return (
-    <div>
-        <h1 className="text-3xl font-bold underline">
-        Hello world!
-        </h1>
-  </div>
+    <main>
+        <RouterProvider router={router}></RouterProvider>
+  </main>
   )
 }
